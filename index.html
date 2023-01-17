@@ -16,28 +16,344 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>flexbox backroads</h1>
     <!-- header  -->
+    <nav>
+      <div class="section-center navbar">
+        <div class="nav-content">
+          <h3>Back <span>Roads</span></h3>
+          <ul class="nav-headers">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+
+          <ul class="soc-links">
+            <li>
+              <a href="#" class="soc-icon"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#" class="soc-icon"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#" class="soc-icon"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+          <span class="nav-btn" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Featured</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>continue exploring</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda,
+            numquam quisquam quasi.
+          </p>
+          <button class="btn hero-btn">explore tours</button>
+        </div>
+      </div>
+    </nav>
     <!-- end of header  -->
 
     <!-- about section -->
+
+    <section class="about-container">
+      <div class="section-center">
+        <h2 class="about-header">ABOUT <span>US</span></h2>
+        <div class="about-content">
+          <div class="about-img-container">
+            <div class="about-frame-container">
+              <img src="./images/about.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="about-info-container">
+            <div class="about-info-flex-child">
+              <h3>Explore the difference</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                velit inventore maiores maxime! Beatae adipisci magni animi quam
+                reiciendis at?
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                fugit velit ipsum repellendus ad maiores tempora totam eligendi
+                voluptate voluptatem!
+              </p>
+
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- end of about section -->
 
     <!-- services -->
+
+    <section class="services-container">
+      <div class="section-center">
+        <h1 class="services-header">OUR <span>SERVICES</span></h1>
+        <article class="services">
+          <div class="each-service">
+            <span class="service-icon">
+              <i class="fas fa-wallet"></i>
+            </span>
+
+            <div class="service-info">
+              <h4>Saving Money</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+                placeat.
+              </p>
+            </div>
+          </div>
+          <div class="each-service">
+            <span class="service-icon">
+              <i class="fas fa-tree"></i>
+            </span>
+            <div class="service-info">
+              <h4>Saving Money</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+                placeat.
+              </p>
+            </div>
+          </div>
+          <div class="each-service">
+            <span class="service-icon">
+              <i class="fas fa-socks"></i>
+            </span>
+            <div class="service-info">
+              <h4>Saving Money</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+                placeat.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
     <!--end services -->
 
     <!-- featured tours -->
+
+    <section class="featured-tours">
+      <h2 class="featured-header">FEATURED <span>TOURS</span></h2>
+      <div class="section-center">
+        <div class="cards-container">
+          <article class="card">
+            <div class="card-img-container">
+              <img src="./images/tour-1.jpeg" alt="" />
+              <span>August 26th,2020</span>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h4>Tibet Adventure</h4>
+                <p>6 days</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus dignissimos impedit cumque qui ex dolore.
+                Distinctio natus velit repudiandae quaerat.
+              </p>
+              <div class="card-footer">
+                <span class="foot-left">
+                  <i class="fas fa-map"></i> <span>china</span>
+                </span>
+                <span class="foot-right"> From $2100 </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-container">
+              <img src="./images/tour-2.jpeg" alt="" />
+              <span>October 1st,2020</span>
+            </div>
+            <div class="card-info">
+              <h4>Best of java</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus dignissimos impedit cumque qui ex dolore.
+                Distinctio natus velit repudiandae quaerat.
+              </p>
+
+              <div class="card-footer">
+                <span class="foot-left">
+                  <i class="fas fa-map"></i> <span>indonesia</span>
+                </span>
+
+                <span class="foot-middle"> 11 Days </span>
+
+                <span class="foot-right"> From $1400 </span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img-container">
+              <img src="./images/tour-3.jpeg" alt="" />
+              <span>September 15th,2020</span>
+            </div>
+            <div class="card-info">
+              <h4>Explore Hong kong</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus dignissimos impedit cumque qui ex dolore.
+                Distinctio natus velit repudiandae quaerat.
+              </p>
+
+              <div class="card-footer">
+                <span class="foot-left">
+                  <i class="fas fa-map"></i> <span>Hong Kong</span>
+                </span>
+
+                <span class="foot-middle"> 8 Days </span>
+
+                <span class="foot-right"> From $5000 </span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img-container">
+              <img src="./images/tour-4.jpeg" alt="" />
+              <span>December 15th,2019</span>
+            </div>
+            <div class="card-info">
+              <h4>Kenya HighLights</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus dignissimos impedit cumque qui ex dolore.
+                Distinctio natus velit repudiandae quaerat.
+              </p>
+
+              <div class="card-footer">
+                <span class="foot-left">
+                  <i class="fas fa-map"></i> <span>Kenya</span>
+                </span>
+
+                <span class="foot-middle"> 20 Days </span>
+
+                <span class="foot-right"> From $3300 </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn">All tours</button>
+      </div>
+    </section>
     <!-- end of featured tours -->
 
     <!-- contact -->
+
+    <section class="contact-container">
+      <div class="section-center">
+        <div class="contact-flex-container">
+          <div class="contact-info">
+            <h3>Want Latest Tour Info and Updates?</h3>
+            <p>Signup for Newsletter and stay up to Date</p>
+          </div>
+
+          <div class="contact-submit">
+            <input
+              type="email"
+              placeholder="Your Email"
+              name="email"
+              class="mail"
+            />
+            <button type="submit" class="btn cont-btn">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- end of contact -->
 
     <!-- gallery  -->
 
+    <section class="gallery-container">
+      <div class="img-container">
+        <img src="./images/tour-1.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="img-container">
+        <img src="./images/tour-2.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="img-container">
+        <img src="./images/tour-3.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="img-container">
+        <img src="./images/tour-4.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="img-container">
+        <img src="./images/tour-5.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="img-container">
+        <img src="./images/tour-6.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="img-container">
+        <img src="./images/tour-1.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="img-container">
+        <img src="./images/tour-2.jpeg" alt="" />
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+      </div>
+    </section>
+
     <!-- end of gallery  -->
 
     <!-- footer -->
+
+    <section class="footer-container">
+      <ul class="footer-nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Featured</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+
+      <ul class="footer-soc-links">
+        <li>
+          <a href="#" class="footer-soc-icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="footer-soc-icon"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="footer-soc-icon"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+
+      <h4 class="footer-content">
+        Copyright &copy; Backroads Travel Tours Company 2023. All Rights
+        Reserved
+      </h4>
+    </section>
 
     <!-- js -->
     <script src="./js/app.js"></script>
